@@ -28,3 +28,5 @@ In order to avoid MATLAB software crashes caused by CPU overload, please first s
 "subsets.m" is the function find the sub-sets of a specific from a given set.
 
 "union.m" is the function union of two sets of positive integers.
+
+"alarm_500.txt" is the Alarm causal network with sample numbers of 500.
