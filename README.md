@@ -9,3 +9,13 @@ We provide an alarm network data which is "alarm.txt" and use it in the main fun
 
 In order to avoid MATLAB software crashes caused by CPU overload, please first step multiple times and then use the continue button to complete the code.
 
+"Gen_ADJ.M" is the generation method of the candidate adjacent node set of the target node.
+"RePC.M" is the network structure learning method based on SCI.
+"SCI.h" "SCI.app" "SCI.Mexw64" is the  Conditional independence criterion based on stochastic complexity (SCI).
+"TXYCO.M" is the causality orienting algorithm.
+"cauculate_lamda.m" is the function cauculate lamda.
+"neighbors.m" is the function find neighbors of the target node.
+"parents.m"  is the function find parents of the target node.
+"setdiff.m"  is the function find the difference of the node sequence.
+"subsets.m" is the function find the sub-sets of a specific from a given set.
+"union.m" is the function union of two sets of positive integers.
