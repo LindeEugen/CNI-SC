@@ -5,5 +5,7 @@ The "SCI.app" and the "SCI.h" is the C++ code which is more efficient, the usage
 
 We provide an alarm network data which is "alarm.txt" and use it in the main function. You can directly open the main function and run it with one click. More algorithmic process details can be found in the manuscript.
 
-*Note* In order to avoid MATLAB software crashes caused by CPU overload, please first step multiple times and then use the continue button to complete the code.
+<*Notice* >
+
+In order to avoid MATLAB software crashes caused by CPU overload, please first step multiple times and then use the continue button to complete the code.
 
