@@ -4,6 +4,7 @@ Vstru=[];
 nodir=[];
 CanT=1:nodes;
 length_CanT=length(CanT)
+lamda=cauculate_lamda(data,nodes)
 %  Initialize
 while length_CanT>0
     for t=1:length_CanT
