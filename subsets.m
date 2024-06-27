@@ -17,8 +17,7 @@ function sub_s=subsets(s,k)
 %      1     3     4
 % ans =
 %      2     3     4
-% 
-% Written by Raanan Yehezkel, 2004
+
 
 if k<0 % special case
     error('subset size must be positive');
