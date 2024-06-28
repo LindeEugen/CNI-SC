@@ -10,9 +10,9 @@ function lamda=cauculate_lamda(data,nodes)
             data(:,j)=data_temp_j(:,2);
 %             Use temporary variable assignments to avoid logical errors
             if i~=j
-                SCIM((i-1)*nodes+j)=SCI(data(:,1),data(:,2),0);
+                SCIM((i-1)*nodes+j)=SCI(data(:,1),data(:,2),0)
             else 
-                SCIM((i-1)*nodes+j)=0;
+                SCIM((i-1)*nodes+j)=0
             end
         end
     end
