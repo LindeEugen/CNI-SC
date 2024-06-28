@@ -7,7 +7,7 @@ We provide an alarm network data which is "alarm.txt" and use it in the main fun
 
 <*Notice* >
 
-In order to avoid MATLAB software crashes caused by CPU overload, please first step multiple times and then use the continue button to complete the code.
+In order to avoid MATLAB software crashes caused by CPU overload, please first step run multiple times and then use the continue button to complete the code, if MALTAB crashed, reset and try step run again. Make sure the MATLAB is the newer version.
 
 "Gen_ADJ.M" is the generation method of the candidate adjacent node set of the target node.
 
