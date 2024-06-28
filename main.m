@@ -12,7 +12,7 @@ while length_CanT>0
         T=CanT(t);
         ADJT=Gen_ADJ(lamda,data,nodes,T);
         [CPCT,SepT]=RePC(T,ADJT,nodes,data);
-        PCT=CPCT;
+        PCT=CPCT
         for i=1:length(PCT)
 % completing the local causal network inference of T, and can be removed from the candidate target node set
             X = PCT(i);
