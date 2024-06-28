@@ -5,7 +5,7 @@ function CAM=TXYCO(Vstru,data)
         Y=Vstru(i,2);
         S=Vstru(i,3);
 % Step1: Judge how T- Xi -Yj is connected;
-        [SC]=SCI(data(:,X),data(:,Y),data(:,S));
+        [SC]=SCI(data(:,X),data(:,Y),data(:,S))
 % Step2: Use SCI judge      
         if SC>0
             cam=[Vstru(i,:),1];
