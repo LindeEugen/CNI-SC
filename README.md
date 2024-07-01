@@ -31,4 +31,4 @@ We provide an alarm network as the test data which is "alarm.txt". The users can
 
 <*Notice* >
 
-There may be crashes of the Matlab software depending on the version of Matlab or the hardware of the computer, the user can first step run multiple times and then use the continue button to complete the code, if MALTAB crashed, reset and try step run again. Please make sure the MATLAB is the newer version.
+If the Matlab version or computer hardware configuration is inappropriate, the Matlab software may crash, the user can first step run multiple times and then use the continue button to complete the code to solve the issue, or reset and try step run again. Please make sure the MATLAB is the newer version.
