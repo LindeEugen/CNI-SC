@@ -3,12 +3,9 @@ CNI-SC is proposed on a local basis to complete the construction of global causa
 
 The "SCI.app" and the "SCI.h" is the C++ code which is more efficient, the usage is to open it in Matlab and add it to the search path, then it can works.
 
-We provide an alarm network data which is "alarm.txt" and use it in the main function. You can directly open the main function and run it with one click. More algorithmic process details can be found in the manuscript.
+We provide an alarm network as the test data which is "alarm.txt". The users can directly open the main function and run it with one click. More algorithmic process details can be found in the manuscript.
 
-<*Notice* >
-
-In order to avoid MATLAB software crashes caused by CPU overload, please first step run multiple times and then use the continue button to complete the code, if MALTAB crashed, reset and try step run again. Make sure the MATLAB is the newer version.
-
+<*contents* >
 "Gen_ADJ.M" is the generation method of the candidate adjacent node set of the target node.
 
 "RePC.M" is the network structure learning method based on SCI.
@@ -30,3 +27,6 @@ In order to avoid MATLAB software crashes caused by CPU overload, please first s
 "union.m" is the function union of two sets of positive integers.
 
 "alarm_500.txt" is the Alarm causal network with sample numbers of 500.
+
+<*Notice* >
+There may be crashes of the Matlab software depending on the version of Matlab or the hardware of the computer, the user can first step run multiple times and then use the continue button to complete the code, if MALTAB crashed, reset and try step run again. Make sure the MATLAB is the newer version.
