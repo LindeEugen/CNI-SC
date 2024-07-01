@@ -6,6 +6,7 @@ The "SCI.app" and the "SCI.h" is the C++ code which is more efficient, the usage
 We provide an alarm network as the test data which is "alarm.txt". The users can directly open the main function and run it with one click. More algorithmic process details can be found in the manuscript.
 
 <*contents* >
+
 "Gen_ADJ.M" is the generation method of the candidate adjacent node set of the target node.
 
 "RePC.M" is the network structure learning method based on SCI.
@@ -29,4 +30,5 @@ We provide an alarm network as the test data which is "alarm.txt". The users can
 "alarm_500.txt" is the Alarm causal network with sample numbers of 500.
 
 <*Notice* >
+
 There may be crashes of the Matlab software depending on the version of Matlab or the hardware of the computer, the user can first step run multiple times and then use the continue button to complete the code, if MALTAB crashed, reset and try step run again. Please make sure the MATLAB is the newer version.
